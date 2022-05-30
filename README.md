@@ -1,6 +1,6 @@
 # dotfiles
 
-My dotfiles, managed with [`chezmoi`](https://github.com/twpayne/chezmoi).
+My dotfiles, managed with [`chezmoi`](https://github.com/twpayne/chezmoi) (French; "shay mwa"; "at my house").
 
 ## Installation and usage
 
@@ -8,7 +8,7 @@ Install chezmoi, clone my dotfiles and apply them to your machine with a single 
 
     sh -c "$(curl -fsLS chezmoi.io/get)" -- init --apply tfle
 
-Any future updates can be pulled and applied with: 
+Any future updates that I make can be pulled and applied with: 
 
     chezmoi update
 
