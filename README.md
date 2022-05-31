@@ -22,8 +22,8 @@ List all the dotfiles managed by chezmoi:
 
     chezmoi managed
 
-Open the source directory (~/.local/share/chezmoi):
+Edit dotfiles like so:
 
-    chezmoi cd
+    chezmoi edit ~/.config/nvim/init.vim
 
-Any changes in the source directory are pushed automatically (enabled in ~/.config/chezmoi/chezmoi.toml).
+Changes are committed and pushed automatically (enabled in ~/.config/chezmoi/chezmoi.toml).
