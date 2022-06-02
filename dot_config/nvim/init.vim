@@ -11,7 +11,7 @@ call plug#end()
 " general config
 " nvim defaults already do most of the work
 set number
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=2 shiftwidth=2 expandtab
 set termguicolors
 let mapleader="\<C-Space>"
 
