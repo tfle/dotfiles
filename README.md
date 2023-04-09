@@ -1,11 +1,45 @@
 # dotfiles
 
+For me and for macOS.
+
 ## Requirements
 
-1. [Connect to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-   - Generate an SSH key pair by running ***ssh-keygen***
-   - Add the private key to the SSH agent by running ***ssh-add***
-   - Copy the public key to the clipboard by running ***pbcopy < ~/.ssh/id_rsa.pub*** *
-   - Paste the public key into the GitHub "Key" field in Settings and click "Add SSH key"
+1. [Install Homebrew](https://brew.sh)
 
-\* *id_rsa.pub* is the default file name generated when using the RSA algorithm
+```bash
+if test ! $(which brew); then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+```
+
+2. [Install GitHub CLI](https://cli.github.com)
+
+```
+brew install gh
+```
+
+3. [Authenticate gh and git with GitHub](https://cli.github.com/manual/gh_auth_login)
+
+```
+gh auth login
+```
+
+## Installation
+
+1. Clone this repository to ~/.dotfiles with:
+
+```
+gh repo clone tfle/dotfiles ~/.dotfiles
+```
+
+2. Run the setup script with:
+
+```bash
+cd ~/.dotfiles && ./setup.sh
+```
+
+## Options
+
+brew analytics off
