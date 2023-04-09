@@ -35,7 +35,7 @@ gh repo clone tfle/dotfiles ~/.dotfiles
 2. Run the setup script with:
 
 ```bash
-cd ~/.dotfiles && ./setup.sh
+cd ~/.dotfiles && ./install.sh
 ```
 
 ## Options
