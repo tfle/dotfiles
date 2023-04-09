@@ -1,1 +1,4 @@
-brew install gh
+brew "vim"
+brew "zsh"
+
+cask "iterm2"
