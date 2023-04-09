@@ -32,7 +32,7 @@ gh auth login
 gh repo clone tfle/dotfiles ~/.dotfiles
 ```
 
-2. Run the setup script with:
+2. Run the install script with:
 
 ```bash
 cd ~/.dotfiles && ./install.sh
