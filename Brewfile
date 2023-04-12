@@ -8,15 +8,16 @@ brew "zsh"
 brew "mas"
 mas "Xcode", id: 497799835
 
-# Things I like
+# Terminal things
+cask "iterm2"
 brew "neovim"
 brew "tmux"
 brew "fzf"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "pure"
-cask "iterm2"
 
-# Things I need
-cask "visual-studio"
+# Other things
+cask "intellij-idea"
 cask "microsoft-edge"
+cask "zoom"
