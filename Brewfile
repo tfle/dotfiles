@@ -18,7 +18,7 @@ brew "zsh-syntax-highlighting"
 brew "pure"
 
 # Other things
-brew install node
+brew "node"
 cask "intellij-idea"
 cask "microsoft-edge"
 cask "zoom"
