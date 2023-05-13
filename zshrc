@@ -1,4 +1,4 @@
-# Autoload prompt theme
+# Autoload prompt theme system
 autoload -U promptinit; promptinit
 prompt pure
 
