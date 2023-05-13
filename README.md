@@ -11,7 +11,7 @@ For me and for macOS. If `brew` and `gh` are already set up, skip to [Installati
 ```
 
 ```bash
-echo 'eval "$(brew --prefix)/bin/brew shellenv)"' >> $HOME/.zprofile
+echo 'eval "$($(brew --prefix)/bin/brew shellenv)"' >> $HOME/.zprofile
 eval "$($(brew --prefix)/bin/brew shellenv)"
 ```
 
