@@ -26,18 +26,14 @@ gh auth login
 
 ## Installation
 
-1. Clone this repository to $HOME/.dotfiles with:
+1. Clone this repository to $HOME with:
 
 ```
-gh repo clone tfle/dotfiles $HOME/.dotfiles
+gh repo clone tfle/dotfiles $HOME
 ```
 
 2. Run the install script with:
 
 ```bash
-$HOME/.dotfiles/install.sh
+$HOME/dotfiles/install.sh
 ```
-
-## Options
-
-brew analytics off
