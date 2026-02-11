@@ -1,6 +1,10 @@
-# Ghostty embeds JetBrains Mono as the default font
 # cask "font-jetbrains-mono"
-cask "ghostty"
 
-brew "fish"
-brew "helix"
+cask "ghostty@tip"
+# cask "ghostty"
+
+brew "fish", head: true
+# brew "fish"
+
+brew "helix", head: true
+# brew "helix"
