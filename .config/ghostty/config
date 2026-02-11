@@ -1,0 +1,19 @@
+# Reload this config with Cmd + Shift + ,
+
+# Run fish shell
+command = /usr/local/bin/fish
+
+# Auto switch dark/light mode
+theme = dark:Catppuccin Mocha,light:Catppuccin Latte
+# theme = Catppuccin Mocha
+
+# Larger font size, disable ligatures
+font-size = 16
+font-feature = -calt, -liga, -dlig
+
+# Enable quick terminal with Cmd + G
+keybind = global:cmd+g=toggle_quick_terminal
+# quick-terminal-position = center
+quick-terminal-size = 100%
+quick-terminal-animation-duration = 0
+macos-hidden = always

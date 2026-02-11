@@ -2,7 +2,7 @@
 
 For macOS.
 
-- Terminal emulator: iTerm2[^1]
+- Terminal emulator: Ghostty[^1]
 - Shell: fish[^2]
 - Editor: Helix[^3]
 - Font: JetBrains Mono[^4]
